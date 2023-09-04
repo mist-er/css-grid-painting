@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Painting (forth-try)</title>
+    <style>
+        .flex-wrapper {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.grid-wrapper {
+    display: grid;
+    gap: 10.5px;
+    background-color: #000;
+    grid-template: 100px 80px 55px 90px 30px 90px 50px 40px 90px / 50px 55px 70px 180px 135px 200px 110px 40px 95px 45px ;
+}
+
+.item-1, .item-2, .item-6, .item-7, .item-8, .item-9, .item-13, .item-15, .item-21, .item-24, .item-25, .item-27 {
+    grid-column: span 2;
+}
+.item-5, .item-11 {
+    grid-column: span 4;
+}
+.item-18, .item-22, .item-23 {
+    grid-column: span 3;
+}
+
+.item-2, .item-12 {
+    grid-row: span 3;
+}
+.item-10, .item-11 {
+    grid-row: span 4;
+}
+.item-3, .item-4, .item-9, .item-14, .item-15, .item-16, .item-18, .item-19, .item-20, .item-21, .item-23 {
+    grid-row: span 2;
+}
+
+ .item-1, .item-11, .item-18 {
+    background-color: #ff0d00ec;
+ }
+ .item-2, .item-12, .item-25 {
+    background-color: #3478c5;
+ }
+ .item-4, .item-6, .item-10, .item-13, .item-15, .item-17, .item-21, .item-24, .item-26 {
+    background-color: #f0f1ec;
+ } 
+ .item-7, .item-16, .item-27 {
+    background-color: #fdd202;
+ }
+ .item-5, .item-14, .item-20,.item-23 {
+    background-color: #989693;
+ }
+ .item-3, .item-8, .item-9, .item-22, .item-19 {
+    background-color: #e3c8ab;
+ }
+    </style>
+</head>
+<body>
+    <div class="flex-wrapper">
+        <div class="grid-wrapper">
+            <div class="track item-1"></div>
+            <div class="track item-2"></div>
+            <div class="track item-3"></div>
+            <div class="track item-4"></div>
+            <div class="track item-5"></div>
+            <div class="track item-6"></div>
+            <div class="track item-7"></div>
+            <div class="track item-8"></div>
+            <div class="track item-9"></div>
+            <div class="track item-10"></div>
+            <div class="track item-11"></div>
+            <div class="track item-12"></div>
+            <div class="track item-13"></div>
+            <div class="track item-14"></div>
+            <div class="track item-15"></div>
+            <div class="track item-16"></div>
+            <div class="track item-17"></div>
+            <div class="track item-18"></div>
+            <div class="track item-19"></div>
+            <div class="track item-20"></div>
+            <div class="track item-21"></div>
+            <div class="track item-22"></div>
+            <div class="track item-23"></div>
+            <div class="track item-24"></div>
+            <div class="track item-25"></div>
+            <div class="track item-26"></div>
+            <div class="track item-27"></div>   
+        </div>
+    </div>
+</body>
+</html>

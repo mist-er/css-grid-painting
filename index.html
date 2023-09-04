@@ -3,40 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mondrian Painting (forth-try)</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Grid-painting</title>
+    <style>
+        .flex-wrapper {
+            display: flex; 
+            gap: 1rem;
+            flex-direction: column;
+            background-color: yellow;
+            border-radius: 0.3rem;
+        }
+        .flex-wrapper > * {
+            height: 30px;
+            width: 150px;
+            list-style: none;
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
-    <div class="flex-wrapper">
-        <div class="grid-wrapper">
-            <div class="track item-1"></div>
-            <div class="track item-2"></div>
-            <div class="track item-3"></div>
-            <div class="track item-4"></div>
-            <div class="track item-5"></div>
-            <div class="track item-6"></div>
-            <div class="track item-7"></div>
-            <div class="track item-8"></div>
-            <div class="track item-9"></div>
-            <div class="track item-10"></div>
-            <div class="track item-11"></div>
-            <div class="track item-12"></div>
-            <div class="track item-13"></div>
-            <div class="track item-14"></div>
-            <div class="track item-15"></div>
-            <div class="track item-16"></div>
-            <div class="track item-17"></div>
-            <div class="track item-18"></div>
-            <div class="track item-19"></div>
-            <div class="track item-20"></div>
-            <div class="track item-21"></div>
-            <div class="track item-22"></div>
-            <div class="track item-23"></div>
-            <div class="track item-24"></div>
-            <div class="track item-25"></div>
-            <div class="track item-26"></div>
-            <div class="track item-27"></div>   
-        </div>
-    </div>
+    <h3>Below are links to Coompostions by Piet Mondrian designed with grid</h3>
+    <nav class="flex-wrapper">
+        <li><a href="./grid-try-pro-2.html">Composition-1</a></li>
+        <li><a href="./grid-try-pro-3.htm">Composition-2</a></li>
+        <li><a href="./grid-try-pro-4.html">Composition-3</a></li>
+    </nav>
 </body>
 </html>

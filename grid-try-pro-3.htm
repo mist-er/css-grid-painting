@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Painting (third-try)</title>
+    <style>
+        .flex-wrapper {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid-wrapper {
+            background-color: #000;
+            border: 1px solid #000;
+            display: grid;
+            padding: 8px;
+            gap: 8px;
+            grid-template: 150px 200px 80px 90px 17px 17px/  210px 180px 120px 120px;
+        }
+
+        .item-1, .item-2, .item-7, .item-9, .item-12 {
+           grid-column: span 2; 
+        }
+
+        .item-1, .item-5, .item-10, .item-11 {
+            grid-row: span 2;
+        }
+
+        .item-9 {
+            grid-row: span 3;
+        }
+
+        .item-1 {
+            grid-row: span 2;
+        }
+
+        .item-13 {
+            grid-column:span 4;
+        }
+
+        .item-5, .item-11, .item-13, .item-12 {
+            background-color: #000;
+        }
+        .item-9 {
+            background-color: #2f3184;
+        }
+        .item-2 {
+            background-color: #ffb805;
+        }
+        .item-1 {
+            background-color: #eb0606;
+        }
+        .item-3, .item-4,.item-7, .item-6, .item-8, .item-10 {
+            background-color: #f0f1ec;  
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-wrapper">
+        <div class="grid-wrapper">
+            <div class="track item-1"></div>
+            <div class="track item-2"></div>
+            <div class="track item-3"></div>
+            <div class="track item-4"></div>
+            <div class="track item-5"></div>
+            <div class="track item-6"></div>
+            <div class="track item-7"></div>
+            <div class="track item-8"></div>
+            <div class="track item-9"></div>
+            <div class="track item-10"></div>
+            <div class="track item-11"></div>
+            <div class="track item-12"></div>
+            <div class="track item-13"></div>
+        </div>
+    </div>
+</body>
+</html>
